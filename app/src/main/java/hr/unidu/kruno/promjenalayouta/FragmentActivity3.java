@@ -21,8 +21,8 @@ public class FragmentActivity3 extends Fragment {
     // Any view setup should occur here.  E.g., view lookups and attaching view listeners.
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
-        // Setup any handles to view objects here
-        // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
+        // Ovdje se pristupa elementima stvorenog viewa fragmenta
+        // Povezuje se s grafičkim objektima, registriraju se listeneri,...
         pr = view.findViewById(R.id.ratingBar);
         pr.setRating(4.5f);
     }
