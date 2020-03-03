@@ -5,8 +5,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 
 public class FragmentActivity2 extends Fragment {
+    private ImageView slika;
     // The onCreateView method is called when Fragment should create its View object hierarchy,
     // either dynamically or via XML layout inflation.
     @Override
@@ -21,6 +23,9 @@ public class FragmentActivity2 extends Fragment {
     public void onViewCreated(View view, Bundle savedInstanceState) {
         // Setup any handles to view objects here
         // EditText etFoo = (EditText) view.findViewById(R.id.etFoo);
+        slika = view.findViewById(R.id.slika);
+        // Učitava sliku iz drawable resursa na temelju njezinog naziva i prikazuje je
+        slika.setImageDrawable(getResources().getDrawable(R.drawable.music_face));
     }
 
 }

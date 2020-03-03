@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/PromjenaLayouta.iml" filepath="$PROJECT_DIR$/PromjenaLayouta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-promjena-layouta1.iml" filepath="$PROJECT_DIR$/android-promjena-layouta1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/android-promjena-layouta1-app.iml" filepath="$PROJECT_DIR$/app/android-promjena-layouta1-app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
